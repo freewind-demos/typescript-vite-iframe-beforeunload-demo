@@ -1,2 +1,4 @@
-<div id="main"></div>
-<script type="module" src="./src/index.ts"></script>
+<iframe id="iframe" src="./src/inner.html"></iframe>
+<div>
+    <button onclick="document.getElementById('iframe').remove()">Remove iframe</button>
+</div>

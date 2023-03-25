@@ -1,0 +1,12 @@
+Hello
+
+<button onclick="window.location.href=window.location.href">Reload</button>
+
+<script>
+    window.addEventListener('beforeunload', () => {
+      console.log("### beforeunload")  
+    })
+    window.addEventListener('unload', () => {
+      console.log("### unload")  
+    })
+</script>
